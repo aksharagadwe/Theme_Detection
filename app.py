@@ -29,9 +29,9 @@ app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
 Session(app)
 
-S3_BUCKET     = "uploadedfilesfromtestui"
-S3_KEY        = "AKIA2XRBHB6L6LIZA3DK"
-S3_SECRET     = "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"
+S3_BUCKET     = ""
+S3_KEY        = ""
+S3_SECRET     = ""
 S3_LOCATION   = 'http://{}.s3.amazonaws.com/'.format(S3_BUCKET)
 
 
